@@ -18,10 +18,11 @@ aside ul.places {
     text-transform: capitalize;
     margin: 0;
     padding: 5px;
+    cursor: pointer;
 }
 
-aside ul.places{
-    cursor: pointer;
+aside ul.places li{
+    transition: .5s;
 }
 
 article img {
